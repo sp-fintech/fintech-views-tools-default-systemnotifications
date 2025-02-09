@@ -1,0 +1,79 @@
+{
+	"name" : "SystemNotifications",
+	"display_name" : "SP Framework Fintech System Notifications View",
+	"description" : "<p>SP Framework Fintech System Notifications View<br></p>",
+	"module_type" : "views",
+	"app_type" : "fintech",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-systemnotifications",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.7",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : 
+		[
+			{
+				"name" : "Default",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default"
+			}
+		]
+	},
+	"is_subview" : true,
+	"settings" : 
+	{
+		"head" : 
+		{
+			"link" : 
+			{
+				"href" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			},
+			"script" : 
+			{
+				"src" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			}
+		},
+		"footer" : 
+		{
+			"script" : 
+			{
+				"src" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			}
+		}
+	}
+}
