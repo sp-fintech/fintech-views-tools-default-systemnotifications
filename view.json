@@ -4,8 +4,8 @@
 	"description" : "<p>SP Framework Fintech System Notifications View<br></p>",
 	"module_type" : "views",
 	"app_type" : "fintech",
-	"category" : "tools",
-	"version" : "0.0.0",
+	"category" : "default",
+	"version" : "0.1.0",
 	"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-systemnotifications",
 	"dependencies" : 
 	{
