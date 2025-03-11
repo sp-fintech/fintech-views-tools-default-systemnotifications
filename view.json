@@ -1,7 +1,7 @@
 {
 	"name" : "SystemNotifications",
-	"display_name" : "SP Framework Fintech System Notifications View",
-	"description" : "<p>SP Framework Fintech System Notifications View<br></p>",
+	"display_name" : "Fintech Notifications View",
+	"description" : "<p>Fintech Notifications View</p>",
 	"module_type" : "views",
 	"app_type" : "fintech",
 	"category" : "tools",
